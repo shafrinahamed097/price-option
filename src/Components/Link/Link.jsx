@@ -1,3 +1,4 @@
+// import PropTypes from 'prop-types';
 
 const ComponentName = ({route}) => {
   return (
@@ -5,6 +6,9 @@ const ComponentName = ({route}) => {
   );
 };
 
+// Link.propTypes= {
+//   route: PropTypes.object
 
+// }
 
 export default ComponentName;

@@ -6,12 +6,13 @@ import DaisyNav from './Components/DaisyNav/DaisyNav'
 import Navbar from './Components/NavBar/NavBar'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
    <>
-   <DaisyNav />
    <Navbar />
+   <DaisyNav />
+   
  
    </>
   )
