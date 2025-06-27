@@ -7,6 +7,9 @@ import Navbar from './Components/NavBar/NavBar'
 import PriceOptions from './Components/PriceOptions/PriceOptions'
 import LinceChart from './Components/LineChart/LinceChart'
 
+import Phones from './Components/Phones/Phones'
+
+
 function App() {
  
 
@@ -16,6 +19,9 @@ function App() {
    {/* <DaisyNav /> */}
    <PriceOptions />
    <LinceChart />
+ 
+   <Phones />
+ 
    
  
    </>
